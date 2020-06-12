@@ -1,0 +1,27 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        # 配置对应的路由关系
+        - id: es1
+          uri: http://host:9201
+          predicates:
+            # AuthHeader=用户名-密码
+            - AuthHeader=root-123
+        - id: es2
+          uri: http://host:9200
+          predicates:
+            - AuthHeader=root1-123
+        # 这个下面的error不要动。
+        - id: error
+          uri: http://localhost
+          predicates:
+            - Invalid=true
+          filters:
+            - Invalid=true
+server:
+  port: 9200
+
+logging:
+  level:
+    web: debug

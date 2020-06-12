@@ -1,0 +1,17 @@
+- user:
+    # proxy访问时的账号密码
+    username: user1
+    password: 123
+  # 路由的地址端口
+  host: host
+  port: 10000
+  # 真实数据库账号密码
+  visitUsername: root
+  visitPassword: 123
+- user:
+    username: user2
+    password: 123
+  host: host
+  port: 10000
+  visitUsername: root
+  visitPassword: 123
