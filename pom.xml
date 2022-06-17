@@ -56,7 +56,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
-        <fastjson>1.2.62</fastjson>
+        <fastjson>1.2.83</fastjson>
         <!-- 文件拷贝时的编码 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
