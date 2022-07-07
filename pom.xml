@@ -49,7 +49,7 @@
         <lombok>1.18.10</lombok>
         <yaml>1.25</yaml>
         <hikariCp>3.4.0</hikariCp>
-        <apache.config>2.6</apache.config>
+        <apache.config>2.8.0</apache.config>
         <logback>1.2.3</logback>
         <es.http.client>7.3.2</es.http.client>
         <es.transport.client>7.3.2</es.transport.client>
